@@ -1,6 +1,13 @@
 # class_to_hiphop
 A hip hop playlist recommender based on the trackId of a classical-music piece from Spotify
 
+## Secrets
+.env and google service account is not included in source code
+in .env:
+```
+GOOGLE_APPLICATION_CREDENTIALS=<path_to_google_service_account.json>
+```
+
 ## Docker
 build image and tag as hiphipclass-app
 ```
@@ -35,9 +42,3 @@ To redeploy on existing machine just run ./build_and_push.sh again and make sure
 sample request:
 http://35.198.186.156/api/recommend?track_id=2kyEgPaAW8wdpvevPnkf0Z&popularity_threshold=0.3&playlist_len=50
 
-## Secrets
-.env and google service account is not included in source code
-in .env:
-```
-GOOGLE_APPLICATION_CREDENTIALS=<path_to_google_service_account.json>
-```
