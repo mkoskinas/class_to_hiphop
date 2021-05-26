@@ -4,6 +4,10 @@ A hip hop playlist recommender based on the trackId of a classical-music piece f
 sample request:
 http://35.198.186.156/api/recommend?track_id=2kyEgPaAW8wdpvevPnkf0Z&popularity_threshold=0.3&playlist_len=50
 
+track_id = <'your_classical_piece_track_id'>
+popularity_threshold = [0,1]
+playlist length = [1,50]
+
 ## Secrets
 .env and google service account is not included in source code
 in .env:
