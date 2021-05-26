@@ -38,6 +38,4 @@ or to build, tag and push docker image all at once run
 
 View docker images here: https://console.cloud.google.com/gcr/images/mich-2021/EU/hiphopclass-app?project=mich-2021&gcrImageListsize=30
 
-To deploy click on image and in detailed image page click deploy dropdown and select "deploy to GCE", choose image name, region, and machine size. Make sure to also configure firewall https://console.cloud.google.com/networking/firewalls/list?project=mich-2021 to expose port 5000 for tcp connection from all sources 0.0.0.0/0
-
 
