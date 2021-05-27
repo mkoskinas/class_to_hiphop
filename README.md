@@ -8,6 +8,9 @@ track_id = <'your_classical_piece_track_id'>
 popularity_threshold = [0.1,1.0]
 playlist length = #of_hip_hop_tracks_returned
 
+## Architecture
+<img src="./architecture.jpg">
+
 ## Secrets
 .env and google service account is not included in source code
 in .env:
